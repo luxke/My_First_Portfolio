@@ -26,3 +26,13 @@ header, footer {
   padding: 10px;
   text-align: center;
 }
+@media (max-width: 768px) {
+  main {
+      flex-direction: column;
+  }
+
+  article, aside {
+      flex: none;
+      width: 100%;
+  }
+}
